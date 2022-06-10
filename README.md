@@ -377,7 +377,7 @@ CONCLUCIONES
 Para poder concluir la variación de los voltajes es importante detectar ya que puede exsistir un corto y previamente se debe hacer una conexión de un fusible 
 y una conexión de tierra pra poder redirigir una alta intencidad de corriente y asi poder salvar varios de los elementos del circuito.
 
-Las conexiones de cada uno de los elementos deben de colocarse bien para evitar fallas en los circuitos la ley de ohms y la varios y division del voltaje es fundamental para poder sacar los calculos en varias caidas de voltaje que tenga nuentro circuito  
+Las conexiones de cada uno de los elementos deben de colocarse bien para evitar fallas en los circuitos la ley de ohms y la varios y division del voltaje es fundamental para poder sacar los calculos en varias caidas de voltaje que tenga nuestro circuito  
 
 Bibliografía
 
