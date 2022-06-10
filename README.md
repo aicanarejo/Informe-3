@@ -119,11 +119,12 @@ SECCIÓN 5–6 Ley del voltaje de Kirchhoff
 32. Determine la caída o las caídas de voltaje no especificadas en cada circuito de la figura 5-80. Muestre
 cómo conectar un voltímetro para medir cada una de las caídas de voltaje desconocidas.
 
-![](https://github.com/aicanarejo/Informe-3/blob/main/a15.png)
+![](https://github.com/aicanarejo/Informe-3/blob/main/a16.png)
 
 34. Encuentre R1, R2 y R3 en la figura 5-82.
 
-![](https://github.com/aicanarejo/Informe-3/blob/main/a16.png)
+![](https://github.com/aicanarejo/Informe-3/blob/main/a15.png)
+
 
 36. Con el resultado del problema 35, determine el voltaje a través de cada resistor mostrado en la figu-
 ra 5-83 para cada posición del interruptor.
@@ -147,7 +148,7 @@ SECCIÓN 5–7 Divisores de voltaje
 44. Con la tabla de valores estándar de resistor dada en el apéndice A, diseñe un divisor de voltaje para produ-
 cir los siguientes voltajes aproximados con respecto a tierra utilizando una fuente de 30 V; 8.18 V, 14.7 V.
 
-
+Lo que se debe procederpara la fuente  es limitar a 1mA todos los resistores son de pontencia en watts asi como muesta en la colocacion de los resitores en el circuito 
 
 SECCIÓN 5–8 Potencia en circuitos en serie
 
@@ -179,7 +180,11 @@ SECCIÓN 5–10 Localización de fallas
 54. Se conecta una serie de cinco resistores a través de una batería de 12 V. Se miden 0 volts en todos los
 resistores excepto en R2. ¿Qué está mal en el circuito? ¿Qué voltaje se medirá a través de R2?
 
-![](
+![](https://github.com/aicanarejo/Informe-3/blob/main/a29.png)
+
+La resistencia R1,R2 es de Ov ya que la resistencia R3 es muy grande no da paso al voltaje
+
+El voltaje de R2 no cambia el valor de un corto en el tramo del circuito ya que exsiste un daño.
 
 56. ¿Cuál corriente mediría usted en la figura 5-91(b) si sólo R2 estuviera en cortocircuito?
 
@@ -197,10 +202,12 @@ forme aumenta el voltaje de la fuente, se observa el incremento correspondiente 
 proviso, la corriente se reduce a cero y huele a humo. Todos los resistores son de 1⁄2 W.
 
 (a) ¿Qué sucedió?
+
 (b) Específicamente, ¿qué debe hacerse para arreglar el problema?
+
 (c) ¿Con qué voltaje ocurrió la falla?
 
-![](
+![](https://github.com/aicanarejo/Informe-3/blob/main/a28.png)
 
 CAP 4
 
@@ -243,7 +250,11 @@ abastece a la habitación? Si la línea principal está protegida por un cortaci
 rriente puede ser absorbida de la cuarta toma de corriente? Trace un diagrama esquemático de esta ins-
 talación eléctrica.
 
-![](
+Itotal= 1.25 A + 0.833 A + 0.833 A + 10 A = 12.92 A
+
+I4 = 15 A - 12.92 A = 2.08 A
+
+![](https://github.com/aicanarejo/Informe-3/blob/main/f20.png)
 
 SECCIÓN 6–4 Resistencia total en paralelo
 
@@ -303,13 +314,17 @@ bajo, y todos los demás valores son múltiplos de éste como se indica.
 la resistencia del movimiento de medidor es de 50 Æ.
 (b) Encuentre el valor requerido para RSH2 en el circuito medidor de la figura 6-50 (RM  50 Æ).
 
-![](
+IT=10mA; IM=1mA; ISH1=9mA IT=100mA; IM=1mA; ISH1=99mA
+
+VM=IMRM=1mA50Ω=50mV VM=IMRM=1mA50Ω=50mV
+
+RSH1=VM/ISH1=50mV/9mA=5.56Ω RSH1=VM/ISH2=50mV/99mA=0.505Ω
 
 SECCIÓN 6–8 Potencia en circuitos en paralelo
 
 38. Cada resistor de un grupo de cinco dispuesto en paralelo maneja 250 mW. ¿Cuál es la potencia total?
 
-![](
+PT=5*250mW=1.5W
 
 40. Seis focos están conectados en paralelo entre los extremos de una fuente de 110 V. Cada foco es de 75 W.
 ¿Cuál es la corriente a través de cada foco, y cuál es la corriente total?
@@ -318,12 +333,25 @@ SECCIÓN 6–8 Potencia en circuitos en paralelo
 
 42. Cierto circuito en paralelo está compuesto por resistores de sólo 1⁄2 W. La resistencia total es de 1.0 kÆ,
 y la corriente total es de 50 mA. Si cada resistor opera a la mitad de su nivel de potencia máxima, determine lo siguiente:
-(a) El número de resistores 
+
+(a) El número de resistores
+
+PT=IT^2 X RT=50mA^2*1kΩ=2.5W
+
+Resistores=PT/RESISTORES=2.5W/0.5W=5Resistores
+
 (b) El valor de cada resistor
-(c) La corriente en cada rama 
+
+R=Numero resistoresRT=51kΩ=5kΩ
+
+(c) La corriente en cada rama
+
+I=IT/N resistores=50 mA/5=0.01 A
+
 (d) El voltaje aplicado
 
-![](
+V=IR=50mA1kΩ=50V
+
 
 SECCIÓN 6–10 Localización de fallas
 
@@ -340,6 +368,16 @@ así, cuál?
 tas si hay un corto entre las puntas 2 y 4:(a) 1 y 2 (b) 2 y 3 (c) 3 y 4 (d) 1 y 4
 
 ![](https://github.com/aicanarejo/Informe-3/blob/main/f19.png)
+
+VIDEO
+
+
+CONCLUCIONES
+
+Para poder concluir la variación de los voltajes es importante detectar ya que puede exsistir un corto y previamente se debe hacer una conexión de un fusible 
+y una conexión de tierra pra poder redirigir una alta intencidad de corriente y asi poder salvar varios de los elementos del circuito.
+
+Las conexiones de cada uno de los elementos deben de colocarse bien para evitar fallas en los circuitos la ley de ohms y la varios y division del voltaje es fundamental para poder sacar los calculos en varias caidas de voltaje que tenga nuentro circuito  
 
 Bibliografía
 
